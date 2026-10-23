@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Taste Restaurant & Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="movies" class="movies-section">
+    <h2>🎬 Popular Telugu Movies</h2>
+    <p class="subtitle">
+        Explore Tollywood movies, ratings and reviews
+    </p>
+
+    <input type="text" id="search"
+           placeholder="Search Telugu movies...">
+
+    <div class="filters">
+        <button class="filter active" data-genre="All">All</button>
+        <button class="filter" data-genre="Action">Action</button>
+        <button class="filter" data-genre="Drama">Drama</button>
+        <button class="filter" data-genre="Romance">Romance</button>
+        <button class="filter" data-genre="Fantasy">Fantasy</button>
+    </div>
+
+    <div class="movie-grid" id="movieGrid">
+
+        <article class="movie-card"
+                 data-title="Baahubali 2"
+                 data-genre="Action">
+            <img src="https://image.tmdb.org/t/p/w500/sXf30P8hZ0s5W3fJwJwW1J5Z2.jpg"
+                 alt="Baahubali 2 poster">
+            <div class="movie-info">
+                <span class="genre">Action</span>
+                <h3>Baahubali 2: The Conclusion</h3>
+                <p class="date">Release: 2017</p>
+                <p class="rating">⭐ 8.2/10</p>
+                <p class="cast">Cast: Prabhas, Anushka Shetty,
+                    Rana Daggubati</p>
+                <p class="synopsis">
+                    Amarendra Baahubali's son discovers
+                    his royal heritage and fights for justice.
+                </p>
+                <p class="critic">
+                    <strong>Review:</strong>
+                    A grand epic with spectacular action
+                    and visual storytelling.
+                </p>
+            </div>
+        </article>
+
+        <article class="movie-card"
+                 data-title="RRR"
+                 data-genre="Action">
+            <img src="https://image.tmdb.org/t/p/w500/nEufeZlyAOLqO2brrs0yeF1lgXO.jpg"
+                 alt="RRR movie poster">
+            <div class="movie-info">
+                <span class="genre">Action</span>
+                <h3>RRR</h3>
+                <p class="date">Release: 2022</p>
+                <p class="rating">⭐ 7.8/10</p>
+                <p class="cast">Cast: N. T. Rama Rao Jr.,
+                    Ram Charan, Alia Bhatt</p>
+                <p class="synopsis">
+                    Two extraordinary revolutionaries
+                    form an unexpected friendship in
+                    pre-independence India.
+                </p>
+                <p class="critic">
+                    <strong>Review:</strong>
+                    An energetic action spectacle with
+                    memorable music and performances.
+                </p>
+            </div>
+        </article>
+
+        <article class="movie-card"
+                 data-title="Pushpa 2"
+                 data-genre="Action">
+            <img src="https://image.tmdb.org/t/p/w500/1F1h7pYq0Y6g8j9s8g8w9w.jpg"
+                 alt="Pushpa 2 movie poster">
+            <div class="movie-info">
+                <span class="genre">Action</span>
+                <h3>Pushpa 2: The Rule</h3>
+                <p class="date">Release: 2024</p>
+                <p class="rating">⭐ 6.1/10</p>
+                <p class="cast">Cast: Allu Arjun,
+                    Rashmika Mandanna, Fahadh Faasil</p>
+                <p class="synopsis">
+                    Pushpa faces new challenges as his
+                    influence and rivalries grow.
+                </p>
+                <p class="critic">
+                    <strong>Review:</strong>
+                    A mass-action entertainer featuring
+                    a commanding lead performance.
+                </p>
+            </div>
+        </article>
+
+        <article class="movie-card"
+                 data-title="Jersey"
+                 data-genre="Drama">
+            <img src="https://image.tmdb.org/t/p/w500/9R3h5s6j0h4Q7t4p8z3v7w.jpg"
+                 alt="Jersey movie poster">
+            <div class="movie-info">
+                <span class="genre">Drama</span>
+                <h3>Jersey</h3>
+                <p class="date">Release: 2019</p>
+                <p class="rating">⭐ 8.5/10</p>
+                <p class="cast">Cast: Nani, Shraddha Srinath</p>
+                <p class="synopsis">
+                    A former cricketer tries to return
+                    to the sport and fulfil his son's dream.
+                </p>
+                <p class="critic">
+                    <strong>Review:</strong>
+                    An emotional sports drama with
+                    powerful performances.
+                </p>
+            </div>
+        </article>
+
+        <article class="movie-card"
+                 data-title="Sita Ramam"
+                 data-genre="Romance">
+            <img src="https://image.tmdb.org/t/p/w500/A4t3d9d8d9f7e9c8f2f4e6a8b9c.jpg"
+                 alt="Sita Ramam movie poster">
+            <div class="movie-info">
+                <span class="genre">Romance</span>
+                <h3>Sita Ramam</h3>
+                <p class="date">Release: 2022</p>
+                <p class="rating">⭐ 8.5/10</p>
+                <p class="cast">Cast: Dulquer Salmaan,
+                    Mrunal Thakur, Rashmika Mandanna</p>
+                <p class="synopsis">
+                    A letter leads to the discovery of
+                    a moving love story across time.
+                </p>
+                <p class="critic">
+                    <strong>Review:</strong>
+                    A visually beautiful romantic drama
+                    with heartfelt storytelling.
+                </p>
+            </div>
+        </article>
+
+        <article class="movie-card"
+                 data-title="Hanu-Man"
+                 data-genre="Fantasy">
+            <img src="https://image.tmdb.org/t/p/w500/1n7Z7u8j3t5s2p4k6m8w9x.jpg"
+                 alt="Hanu-Man movie poster">
+            <div class="movie-info">
+                <span class="genre">Fantasy</span>
+                <h3>Hanu-Man</h3>
+                <p class="date">Release: 2024</p>
+                <p class="rating">⭐ 7.8/10</p>
+                <p class="cast">Cast: Teja Sajja,
+                    Amritha Aiyer, Varalaxmi Sarathkumar</p>
+                <p class="synopsis">
+                    A young man discovers extraordinary
+                    powers and becomes a local hero.
+                </p>
+                <p class="critic">
+                    <strong>Review:</strong>
+                    An imaginative superhero film blending
+                    mythology, humour and action.
+                </p>
+            </div>
+        </article>
+
+    </div>
+    <p id="noResults" hidden>No movies found.</p>
+</section>
+
+
+
